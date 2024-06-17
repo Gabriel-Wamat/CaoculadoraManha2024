@@ -1,10 +1,3 @@
-//
-//  Porte.swift
-//  Caoculadora
-//
-//  Created by Francisco Miranda Soares on 13/05/24.
-//
-
 import Foundation
 
 enum Porte: String, CaseIterable {
@@ -14,12 +7,7 @@ enum Porte: String, CaseIterable {
 
     func calcularIdade(deAnos anosCaninos: Int,
                       eMeses mesesCaninos: Int) -> Int {
-        // o resultado vai ser os anos * multiplicador + a fração do ano em meses * multiplicador
-        // multiplicador:
-        //   * pequeno: 6
-        //   * médio: 7
-        //   * grande: 8
-        
+
         let multiplicador: Int
         
         switch self {
